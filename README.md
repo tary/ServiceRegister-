@@ -2,7 +2,8 @@
   
   - 说明:
   
-    * 目的取代resources下servers.properties内关于服务器地址的配置
+    * __一些无关依赖代码没有包含__
+    * 目的取代resources下servers.properties内关于服务器地址的配置
     * 服务器之间连接自动发现,更换机器,不需要改配置
     * 需要配置Zookeeper, 需要每台部署的机器配置本机内网地址. 
     * 发布服务使用的是本机etc/hosts内localhost对应的IP发布,局域网内部署需要配置内网IP
