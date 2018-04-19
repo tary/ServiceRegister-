@@ -61,17 +61,6 @@
         }
     }
     ```
-
-
-### 自动连接服务整理
-
-  - Zookeeper实现
-    ```
-    ConnectService connectService = new STConnectService(); //主要差异
-    connectService.Initialize();
-    UpdateMgr.Instance().AddUpdater(connectService);
-    ```
-   
     
 
 
