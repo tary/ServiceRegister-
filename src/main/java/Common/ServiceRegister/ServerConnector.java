@@ -12,7 +12,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * Created by shuaifujian on 2018-03-28.
+ * 自动连接逻辑,移植自原有逻辑,仅增加了更新URL的逻辑
  */
 public class ServerConnector implements IZKServiceEventListener, Updater {
     private Supplier<BaseSessionC> m_func = null;
