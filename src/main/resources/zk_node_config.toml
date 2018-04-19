@@ -1,0 +1,14 @@
+[[NodeInfo]]
+host = "192.168.1.78"
+port = 2181
+priority = 500
+
+[[NodeInfo]]
+host = "192.168.1.78"
+port = 2182
+priority = 200
+
+[[NodeInfo]]
+host = "192.168.1.79"
+port = 2181
+priority = 200
